@@ -1,0 +1,15 @@
+# Core App & Data
+streamlit
+pandas
+requests
+
+# Machine Learning
+scikit-learn
+tensorflow
+joblib
+Pillow
+
+# APIs & Accessibility
+owslib
+gTTS
+pyproj
