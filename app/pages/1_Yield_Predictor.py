@@ -1,4 +1,3 @@
-# app/pages/1_Yield_Predictor.py
 
 import streamlit as st
 import pandas as pd
@@ -7,7 +6,6 @@ import io
 import sys
 import os
 
-# Add the project root to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 from src.ml import yield_predictor
