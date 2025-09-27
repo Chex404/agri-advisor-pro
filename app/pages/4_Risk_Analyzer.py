@@ -3,14 +3,13 @@ import pandas as pd
 import sys
 import os
 
-# Add the project root to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 # Import the backend logic and translations
 from src.analysis import weather_risk
 from utils.translations import TRANSLATIONS
 
-# --- Sidebar and Language Selection (Consistent with other pages) ---
+# --- Sidebar and Language Selection ---
 st.sidebar.title("⚙️ Settings")
 st.sidebar.selectbox(
     label="Language / भाषा / ଭାଷା",

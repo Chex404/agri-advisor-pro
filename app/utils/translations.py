@@ -1,6 +1,6 @@
 # app/utils/translations.py
 
-# The variable MUST be named TRANSLATIONS
+
 TRANSLATIONS = {
     "en": { # English
         "app_title": "Agri-Advisor Pro",
