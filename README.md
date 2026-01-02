@@ -1,9 +1,9 @@
 
-# 🌱 Agri-Advisor Pro
+# Agri-Advisor Pro
 
 **An AI-powered decision support system for modern, data-driven agriculture.**
 
-## 📜 Overview
+## Overview
 
 Agri-Advisor Pro is an intelligent farming assistant designed to empower farmers by providing actionable, data-driven insights. By leveraging machine learning, real-time data APIs, and agronomic principles, this tool helps optimize resource usage, mitigate risks, and enhance crop profitability. Our goal is to bridge the gap between traditional farming practices and modern technology, making advanced analytics accessible to every farmer.
 
@@ -11,34 +11,34 @@ This application provides critical advice on **crop yield prediction**, **pest a
 
 -----
 
-## ✨ Features
+## Features
 
-  * **🌾 AI-Powered Yield Prediction:**
+  * ** AI-Powered Yield Prediction:**
 
       * Estimates crop yield (in tonnes/hectare) based on location, soil health, weather patterns, and crop choice.
       * Provides a detailed **economic analysis**, including estimated input costs, revenue, and net profit.
       * Features a **Text-to-Speech** option to read out the summary in the user's selected language.
 
-  * **🌿 Instant Pest & Disease Detection:**
+  * ** Instant Pest & Disease Detection:**
 
       * Utilizes a Convolutional Neural Network (CNN) to identify common plant diseases from uploaded leaf images.
       * Provides immediate classification (e.g., "Corn Common Rust" or "Healthy") with a confidence score.
 
-  * **💧 Smart Irrigation Advisor:**
+  * ** Smart Irrigation Advisor:**
 
       * Fetches a 5-day weather forecast for the farm's precise location.
       * Analyzes predicted rainfall and temperature, combined with the deduced soil type, to provide a clear, daily irrigation plan.
 
-  * **🚨 Proactive Risk Analysis:**
+  * ** Proactive Risk Analysis:**
 
       * Analyzes a 7-day weather forecast to identify conditions favorable for the outbreak of common pests and fungal diseases.
       * Issues timely alerts, allowing farmers to take preventative measures before an infestation occurs.
 
-  * **🌐 Multi-Language Support:**
+  * ** Multi-Language Support:**
 
       * Fully functional interface available in **English**, **हिंदी (Hindi)**, and **ଓଡ଼ିଆ (Odia)** to ensure broad accessibility.
 
-  * **🛰️ Dynamic Soil Data Ingestion:**
+  * ** Dynamic Soil Data Ingestion:**
 
       * A robust, tiered system fetches the most accurate soil data available for any given latitude and longitude.
       * **Tier 1:** Queries the global ISRIC SoilGrids API for detailed soil properties.
@@ -47,7 +47,7 @@ This application provides critical advice on **crop yield prediction**, **pest a
 
 -----
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
   * **Frontend (MVP):** **Streamlit** - For rapid development and creating an interactive data application.
   * **Backend & Data Science:** **Python**, Pandas, Scikit-learn, TensorFlow/Keras
@@ -56,7 +56,7 @@ This application provides critical advice on **crop yield prediction**, **pest a
 
 -----
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 AGRI-ADVISOR-PRO/
@@ -106,7 +106,7 @@ AGRI-ADVISOR-PRO/
 
 -----
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -159,9 +159,9 @@ AGRI-ADVISOR-PRO/
 
 -----
 
-## 🗺️ Roadmap
+##  Roadmap
 
-#### ✅ Version 1.0 (Completed)
+#### Version 1.0 (Completed)
 
   * [x] Core Yield Prediction Engine with Economic Analysis
   * [x] CNN-based Pest & Disease Detection Module
@@ -171,15 +171,15 @@ AGRI-ADVISOR-PRO/
 
 #### Future Plans
 
-  * **📱 Mobile Application:** Migrate the frontend from Streamlit to **React Native** for a native mobile experience.
-  * **🧠 Model Expansion:** Train the models on a wider variety of crops and plant diseases to increase coverage.
-  * **📈 Real-time Market Data:** Integrate APIs to fetch live market prices for more accurate profitability analysis.
-  * **👤 User Authentication:** Implement user accounts to save farm locations and track historical predictions and advice.
-  * **🛰️ Satellite & Drone Imagery:** Incorporate analysis of satellite or drone imagery for precision farming insights.
+  * ** Mobile Application:** Migrate the frontend from Streamlit to **React Native** for a native mobile experience.
+  * ** Model Expansion:** Train the models on a wider variety of crops and plant diseases to increase coverage.
+  * ** Real-time Market Data:** Integrate APIs to fetch live market prices for more accurate profitability analysis.
+  * ** User Authentication:** Implement user accounts to save farm locations and track historical predictions and advice.
+  * ** Satellite & Drone Imagery:** Incorporate analysis of satellite or drone imagery for precision farming insights.
 
 -----
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome\! If you have suggestions for improvements or want to report a bug, please feel free to:
 
