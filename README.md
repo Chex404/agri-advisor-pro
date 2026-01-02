@@ -61,44 +61,47 @@ This application provides critical advice on **crop yield prediction**, **pest a
 ```
 AGRI-ADVISOR-PRO/
 │
-├── app/
+├── app/                          # Streamlit application (UI layer)
 │   ├── pages/
-│   │   ├── 1_Yield_Predictor.py        # Streamlit page for yield prediction
-│   │   ├── 2_Pest_Detector.py          # Streamlit page for pest detection
-│   │   ├── 3_Irrigation_Advisor.py     # Streamlit page for irrigation advice
-│   │   └── 4_Risk_Analyzer.py          # Streamlit page for risk analysis
+│   │   ├── 1_Yield_Predictor.py
+│   │   ├── 2_Pest_Detector.py
+│   │   ├── 3_Irrigation_Advisor.py
+│   │   └── 4_Risk_Analyzer.py
 │   ├── utils/
-│   │   └── translations.py           # Contains all multi-language text
-│   └── Home.py                       # Main landing page for the Streamlit app
+│   │   └── translations.py
+│   └── Home.py
 │
 ├── data/
-│   ├── crop_yield.csv                # Historical crop yield data
-│   └── odisha_soil_data1.csv         # Fallback soil data for the region
+│   ├── crop_yield.csv
+│   └── odisha_soil_data1.csv
 │
 ├── models/
-│   ├── crop_yield_model.joblib       # Saved model for yield prediction (Random Forest)
-│   ├── pest_classifier_model.h5      # Saved model for pest detection (TensorFlow/Keras)
-│   └── pest_class_names.json         # Class labels for the pest model
+│   ├── crop_yield_model.joblib
+│   └── pest_classifier_model.h5
 │
-├── notebooks/
-│   └── pest_img_data/                # Image data used for training the pest model
+├── pest_img_data/                # Training data for pest model
 │
 ├── src/
 │   ├── analysis/
-│   │   ├── economics.py              # Logic for profit calculation
-│   │   ├── irrigation.py             # Logic for irrigation advice
-│   │   └── weather_risk.py           # Logic for risk analysis
+│   │   ├── economics.py
+│   │   ├── irrigation.py
+│   │   ├── location_services.py
+│   │   └── weather_risk.py
+│   │
 │   ├── data_ingestion/
-│   │   └── smart_soil_ingestion.py   # Tiered logic for fetching soil data
+│   │   └── smart_soil_ingestion.py
+│   │
 │   ├── ml/
-│   │   ├── train_pest_model.py       # Script to train the pest detection model
-│   │   ├── train_yield_model.py      # Script to train the yield prediction model
-│   │   └── yield_predictor.py        # Functions for making yield predictions
-│   └── config.py                     # For storing API keys
+│   │   ├── train_pest_model.py
+│   │   ├── train_yield_model.py
+│   │   └── yield_predictor.py
+│   │
+│   └── config.py
 │
-├── .gitignore
+├── requirements.txt
 ├── README.md
-└── requirements.txt                  # List of Python dependencies
+└── .gitignore
+
 ```
 
 -----
