@@ -118,7 +118,7 @@ AGRI-ADVISOR-PRO/
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/AGRI-ADVISOR-PRO.git
+    git clone https://github.com/Chex404/AGRI-ADVISOR-PRO.git
     cd AGRI-ADVISOR-PRO
     ```
 
